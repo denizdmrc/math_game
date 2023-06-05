@@ -1,0 +1,534 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676021188417253, "dur": 1171592, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021188417489, "dur": 3125, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021188420629, "dur": 32209, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021188452842, "dur": 589103, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021189041947, "dur": 533765, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021189575714, "dur": 13130, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021189589323, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676021188873128, "dur": 148755, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676021188874091, "dur": 54337, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676021189003934, "dur": 4281, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676021189008219, "dur": 13657, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676021189008989, "dur": 12457, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676021189026523, "dur": 1250, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676021189025757, "dur": 2043, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021189589389, "dur": 105, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676021189069322, "dur":679, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189070007, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676021189070057, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676021189070073, "dur":240, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676021189070336, "dur":467, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189070803, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189554914, "dur":158, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555072, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555080, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555081, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555106, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555108, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555112, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555113, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555138, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555139, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555143, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555144, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555148, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555149, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555153, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555153, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555157, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555167, "dur":19, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189555223, "dur":935, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676021189070518, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189070818, "dur":3172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189073995, "dur":13674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676021189087675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189087695, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676021189088863, "dur":35144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189124012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189124020, "dur":35110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189159172, "dur":26840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189186018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189186028, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189187592, "dur":44359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189231955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189231962, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189232668, "dur":56087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189288761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189288773, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189289815, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189289987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189289996, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189291002, "dur":35770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189326793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189326801, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189327848, "dur":89863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189417717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189417728, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189418857, "dur":100854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189519716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676021189519725, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676021189520639, "dur":34280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189070491, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189070810, "dur":3175, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189073996, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676021189074006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189074552, "dur":279, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676021189074835, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676021189074852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189075592, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676021189078058, "dur":13812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676021189091873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189091884, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676021189092830, "dur":40801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game.exe" }}
+,{ "pid":12345, "tid":2, "ts":1676021189133637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189133648, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game.exe" }}
+,{ "pid":12345, "tid":2, "ts":1676021189135386, "dur":36225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189171619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189171650, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189172982, "dur":31422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189204408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189204418, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189205228, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189205329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189205337, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189206071, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189206168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189206175, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189207017, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189207945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189207954, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189209535, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189209758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189209766, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189211164, "dur":39226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189250394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189250401, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189251070, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189251130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189251134, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189251698, "dur":31607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189283308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189283316, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189284085, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189284259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189284266, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189284954, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189285061, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189285071, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189286270, "dur":26852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189313126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189313133, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189313967, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189314035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189314041, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189314716, "dur":58931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189373652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189373664, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189374840, "dur":30249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189405093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189405102, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189406632, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189406762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189406771, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189407834, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189407989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189407997, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189409517, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189410112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189410119, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189412723, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189413015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189413025, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189414219, "dur":74511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189488733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676021189488741, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676021189490350, "dur":64569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189070514, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189070813, "dur":3259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189074073, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676021189074256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189078279, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676021189081394, "dur":11135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676021189092533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189092543, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676021189093472, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1676021189093618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189095176, "dur":9054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1676021189104286, "dur":54088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189158381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189158555, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189159585, "dur":86773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189246364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189246374, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189247331, "dur":24078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189271416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189271428, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189272472, "dur":31512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189303990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189304022, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189304876, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189304947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189304953, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189305665, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189305853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189305860, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189306754, "dur":54220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189360980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189360991, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189362068, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189362172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189362181, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189362948, "dur":24390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189387341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189387349, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189388423, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189388556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189388565, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189389465, "dur":56403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189445871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189445881, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189450771, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189450844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189450851, "dur":3995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189454862, "dur":1930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189456796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189456805, "dur":7913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189464733, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189464977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189464985, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189465910, "dur":3522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189469436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189469445, "dur":4319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676021189473784, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1676021189473800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189473863, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1676021189475208, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676021189475224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189475232, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1676021189476666, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676021189476679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189476684, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676021189480150, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1676021189480242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189480252, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1676021189481179, "dur":1066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676021189482327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189482336, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1676021189483389, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676021189483404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189483410, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676021189487272, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1676021189487289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189487296, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1676021189489151, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676021189489163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676021189489170, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676021189490441, "dur":64471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189070545, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189070823, "dur":3170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189073996, "dur":11239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676021189085239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189085255, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676021189086798, "dur":3054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189089857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189090089, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189091433, "dur":4557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676021189095995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189096004, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676021189098931, "dur":66871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189165808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189165818, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189166723, "dur":30720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189197890, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189197909, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189198941, "dur":36139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189235084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189235093, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189236229, "dur":41642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189277877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189277888, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189278864, "dur":29619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189308490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189308505, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189309496, "dur":43959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189353463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189353479, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189355653, "dur":35719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189391376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189391384, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189392307, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189392494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189392502, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189393372, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189393483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189393490, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189394601, "dur":37202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189431821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189431828, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189433099, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189433217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189433227, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189434328, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189434447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189434466, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189435892, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189435987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189435994, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189437064, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189437254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189437261, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189439308, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189439398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189439406, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189440145, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189440356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189440364, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189441339, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189441568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189441573, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189442942, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189443712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189443722, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189448641, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189448790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189448799, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189451013, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189451141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189451148, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189452706, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189453096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189453105, "dur":4792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189457912, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189458005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189458013, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189460864, "dur":1238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189462107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189462117, "dur":13081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676021189475213, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676021189475228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189475234, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676021189476608, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676021189476621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189476628, "dur":6055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676021189482698, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676021189482711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189482717, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676021189488260, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1676021189488275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189488283, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1676021189489398, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1676021189489485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676021189489490, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1676021189491626, "dur":63261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189070569, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189070826, "dur":3162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189073995, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676021189074148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189076411, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676021189078116, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676021189078217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189078343, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676021189079671, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676021189079764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189080029, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676021189080977, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676021189081066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189081172, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676021189083049, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676021189083160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189083170, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676021189084361, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1676021189084467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189084497, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1676021189085599, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1676021189085718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189085726, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1676021189088180, "dur":9564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189097753, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189097898, "dur":9307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189107268, "dur":54338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189161614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189161624, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189162871, "dur":27218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189190093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189190102, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189190861, "dur":200751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189391616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189391625, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189392475, "dur":161239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189553718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676021189553724, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676021189554850, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1676021189554852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189070586, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189070828, "dur":3163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189073995, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676021189074156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189078354, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676021189079615, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1676021189079719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189079762, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1676021189080873, "dur":12916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676021189093792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189093799, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676021189094718, "dur":44030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189138754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189139029, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189139752, "dur":42008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189181765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189181775, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189183032, "dur":182800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189365837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189365848, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189366827, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189367992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189368001, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189371786, "dur":31130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189402922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189402932, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189404223, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189404322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189404331, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189405204, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189405474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189405481, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189406504, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189406974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189406982, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189408339, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189408648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189408655, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189409880, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189409960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189409969, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189411796, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189411902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189411913, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189412761, "dur":84264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189497028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676021189497036, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676021189497873, "dur":57053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189070601, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189070833, "dur":3154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189073995, "dur":39020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1676021189113020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189113292, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1676021189114422, "dur":65395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189179823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189179837, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189180833, "dur":36295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189217131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189217138, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189218024, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189218122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189218128, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189219624, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189219756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189219764, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189220609, "dur":77558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189298173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189298183, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189299315, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189299407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189299415, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189300203, "dur":47666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189347876, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189347888, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189348919, "dur":38351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189387274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189387286, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189388423, "dur":44804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189433230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189433237, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189434342, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189434416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189434424, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189435625, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189435706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189435715, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189436824, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189436930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189436942, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189439002, "dur":2412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189441417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189441426, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189445871, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189445950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189445957, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189450111, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189450265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189450274, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189451766, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189451854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189451861, "dur":5740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189457615, "dur":1689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189459308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189459315, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189464176, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189464353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189464362, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189465466, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189465608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189465615, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189466341, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189466584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189466592, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189467442, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189467550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189467557, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189468352, "dur":18388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189486749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189488256, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676021189489299, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1676021189489310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676021189489315, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1676021189491447, "dur":63471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189070628, "dur":209, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189070837, "dur":3238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189074076, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676021189074266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189076853, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676021189079040, "dur":13938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676021189093001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189093011, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676021189094017, "dur":78066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189172102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189172110, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189173251, "dur":43873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189217127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189217134, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189217969, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189218066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189218074, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189218868, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189219069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189219077, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189220216, "dur":37892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189258112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189258120, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189258880, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189258973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189258980, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189259777, "dur":33260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189293044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189293065, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189294600, "dur":80019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189374624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189374633, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189375667, "dur":46969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189422642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189422653, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189423885, "dur":99107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189522995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676021189523003, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaayd/OneDrive/Masast/Matematik Oyunu/Math_Game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676021189523834, "dur":31077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676021189556983, "dur":1414, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676021189589522, "dur": 421, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676021189589310, "dur": 645, "ph": "X", "name": "Write chrome-trace events", "args": {} },
